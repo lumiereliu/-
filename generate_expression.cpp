@@ -77,7 +77,6 @@ void dfs(vector<vector<T>>& res, vector<T> & sample, vector<T> & path, int depth
       visited[i] = 0;  // 还原
     }
   }
-  
 }
 
 void PrintExpression(vector<double> num, vector<Operator> ops, int n) // 输出表达式
